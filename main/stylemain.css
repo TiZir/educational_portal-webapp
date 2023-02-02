@@ -1,0 +1,152 @@
+body{
+	font-family: Arial Black;
+	margin: auto;
+	background-image: url(back2.png);
+	background-size: 40%;
+}
+
+
+header {
+ display: block; /* Для старых браузеров */
+ height: 250px; /* Высота шапки */
+ background: rgba(177,250,250,0.77);
+ background: url(lol.png) rgba(177,250,250,0.77)  no-repeat;
+ background-position-x:center;
+ background-size: auto 80%;
+}
+
+.forma{
+	margin-left: auto;
+	margin-right: 0;
+	background: rgba(177,250,250,0.77);
+	width: 1200px;
+	height: auto;
+	padding:20px;
+	box-shadow:2px 2px 5px rgba(0,0,0,0.82);
+	border-radius:20px 20px 20px 20px; 
+	border: 2px solid black;
+	font-family: Arial;
+	color:black;
+	font-size:16px;
+}
+
+.formamain{
+	margin:0 auto;
+	background: rgba(177,250,250,0.77);
+	width: 1200px;
+	height: auto;
+	padding:20px;
+	box-shadow:2px 2px 5px rgba(0,0,0,0.82);
+	border-radius:20px 20px 20px 20px; 
+	border: 2px solid black;
+	font-family: Arial Black;
+	font-size:20px;
+}
+
+
+#navbar {
+ margin: auto;
+ position: relative;
+ top: 138px;
+ padding: 7;
+ list-style-type: none;
+ border: 2px solid 758185;
+ border-radius: 20px 20px 5px 5px;
+ width: 1550px;
+ text-align: center;
+ background:linear-gradient(to bottom, #758185 5%, #223e47 100%);
+ background-color:#758185;
+}
+	 
+#navbar li { display: inline; }
+
+#navbar a {
+ color: #fff;
+ padding: 5px 10px;
+ text-decoration: none;
+ font-weight: bold;
+ display: inline-block;
+ width: 280px;
+}
+
+#navbar a:hover {
+ border-radius: 20px 20px 5px 5px;
+ background: rgba(255,255,255,0.87);
+ color: #3a7999;
+ box-shadow: inset 0 0 0 3px #3a7999
+}
+
+#sidebar{
+    margin-left: 0;
+	margin-right: auto;
+	font-family: Arial;
+	text-align:center;
+	width: 200px;
+	height:auto;
+    padding:20px;
+	border-radius:20px 20px 20px 20px; 
+    box-shadow:2px 2px 5px rgba(0,0,0,0.82);
+    background: rgba(177,250,250,0.77);
+	border: 2px solid black;
+	font-size:15px;
+	font-family: Arial Black;
+	color:black;
+}
+
+.butt{
+	margin-left: 1300px;
+}
+
+table {
+margin: auto;
+font-family: Arial;
+font-size: 14px;
+text-align: left;
+
+border-spacing: 10px 11px;
+border-radius: 20px;
+color: #452F21;
+}
+td{
+	vertical-align:top;
+}
+
+.form-popup {
+	margin: 0 auto;
+	display: none;
+}
+
+button:hover{
+	background: rgba(255,255,255,0.87);
+	color: #3a7999;
+	box-shadow: inset 0 0 0 3px #3a7999;
+}
+
+button:focus {
+outline: none !important
+}
+
+button{
+	margin-top:15px;
+	box-shadow: 10px 9px 23px -8px #000000;
+	background:linear-gradient(to bottom, #758185 5%, #223e47 100%);
+	background-color:#758185;
+	border-radius:18px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	padding:13px 30px;
+	text-decoration:none;
+}
+
+.pcss{
+	font-family:Arial Black;
+	font-size:25px;
+}
+nobr{
+	font-family:Arial;
+	font-size:20px;
+}
